@@ -1,0 +1,67 @@
+body {}
+
+.anuncio {
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.image {
+    background: url('../img/arbustos.jpg');
+    width: 203px;
+    height: 203px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.categoria {
+    height: 25px;
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2D3086;
+}
+
+.detalles {
+    padding-left: 16px;
+    padding-right: 8px;
+    margin-left: 0px;
+    text-align: left;
+    width: 304px
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+#fecha {
+    margin-left: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #9f9d9d
+}
+
+.resumen {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 24px;
+}
