@@ -268,6 +268,7 @@
     }
     
     .mas-noticias {
+        cursor: pointer;
         font-weight: bold;
         font-family: Roboto;
         color: #333333;
