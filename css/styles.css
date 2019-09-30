@@ -1,10 +1,14 @@
-body {}
+* {
+    box-sizing: border-box
+}
 
 .anuncio {
-    border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+    /* border-bottom: solid 1px gray;
+    border-top: solid 1px gray; */
     padding-top: 5px;
     padding-bottom: 5px;
+    position: relative;
+    margin: auto;
 }
 
 .col-6 {
@@ -13,10 +17,39 @@ body {}
 }
 
 .image {
-    background: url('../img/arbustos.jpg');
     width: 203px;
     height: 203px;
     border-radius: 10px 0px 0px 10px;
+}
+
+.sports {
+    background: url('../img/ciclista.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.environment {
+    background: url('../img/arbustos.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.pais {
+    background: url('../img/pais.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.politica {
+    background: url('../img/politica.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.tecnologia {
+    background: url('../img/tecnologia.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.farandula {
+    background: url('../img/farandula.jpg') no-repeat center top;
+    background-size: cover;
 }
 
 .categoria {
@@ -27,9 +60,9 @@ body {}
     padding-left: 10px;
     font-size: 14px;
     font-family: Roboto;
-    color: #ffffff;
+    color: #333333;
     font-weight: bold;
-    background-color: #2D3086;
+    background-color: #bad405;
 }
 
 .detalles {
@@ -37,7 +70,13 @@ body {}
     padding-right: 8px;
     margin-left: 0px;
     text-align: left;
-    width: 304px
+    width: 304px;
+    display: block
+}
+
+hr {
+    color: #f4f4f4;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -64,4 +103,136 @@ h1 {
     font-size: 14px;
     color: #666666;
     margin-bottom: 24px;
+}
+
+.icons {
+    float: right;
+    margin-right: 16px;
+    text-align: right;
+    height: 37px;
+    display: relative
+}
+
+#likes {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #666666;
+}
+
+.icons div {
+    width: 37px;
+    height: 37px;
+    margin-left: 8px;
+    display: inline-block !important;
+    text-align: center;
+}
+
+.icons i {
+    vertical-align: middle;
+}
+
+.icons img {
+    height: 22px;
+    color: #333333;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #bbb;
+    color: #ffff
+}
+
+.active,
+.dot:hover {
+    background-color: #bad405;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.layout {
+    margin-bottom: 20px;
+}
+
+.general {
+    width: 95%;
+    height: 426px;
+    padding-right: 40px;
+    border-radius: 10px 0px 0px 10px;
+    background: url('../img/derrumbe.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.detalles-general {
+    padding-left: 16px;
+    margin-left: 0px;
+    text-align: left;
+    width: 100%;
+    display: block
+}
+
+.detalles-general p {
+    margin-right: 16px;
+}
+
+.fill img {
+    fill: #bad405
 }
