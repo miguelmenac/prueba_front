@@ -2,9 +2,7 @@
         box-sizing: border-box
     }
     
-    .container {
-        text-align: center
-    }
+    .container {}
     
     .anuncio {
         /* border-bottom: solid 1px gray;
